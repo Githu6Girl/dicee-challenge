@@ -10,9 +10,9 @@ rightDice.setAttribute("src", "images/dice" + randomNumber2 + ".png");
 var title = document.querySelector("h1");
 
 if (randomNumber1 > randomNumber2) {
-    title.innerHTML = "🚩 Player 1 Wins!";
+    title.innerHTML = "🚩 Player 1 Wins!Refresh Me!";
 } else if (randomNumber1 < randomNumber2) {
-    title.innerHTML = "Player 2 Wins! 🚩";
+    title.innerHTML = "Player 2 Wins! 🚩Refresh Me!";
 } else {
-    title.innerHTML = "It's a Draw! 🎲";
+    title.innerHTML = "It's a Draw! 🎲Refresh Me!";
 }
